@@ -7,8 +7,8 @@ lecture-2
 https://unrivaled-gumdrop-280110.netlify.app/assignment-2/
 
 leture-3
-https://super-pony-b01d18.netlify.app/
 
+https://candid-marshmallow-c9f6ce.netlify.app/assignment-3/assignment-3
 
 
 
