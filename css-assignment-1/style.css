@@ -1,4 +1,22 @@
+*{
+    background-color: bisque;
+}
+h1{
+    background-color: blueviolet;
+}
+.text > p{
+    background-color: chartreuse;
+}
+#work {
+    color: brown;
+}
+.text> a > span{
+    color: chartreuse;
 
-body{
-    background-color: aqua;
+}
+.list li{
+    color: chocolate;
+}
+.heading+p {
+    color: cornflowerblue;
 }
