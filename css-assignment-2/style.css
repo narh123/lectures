@@ -1,3 +1,65 @@
-h1 {
-   background-color: rgb(210, 105, 30, 0.5);
+
+
+
+@font-face {
+   font-family:Roboto ;
+   src: url(font/Roboto-Italic-VariableFont_wdth\,wght.ttf);
 }
+
+.test > h1 {
+   color:orange;
+   font-family: Roboto;
+   text-shadow:2px 2px 2px gray ;
+}
+.test > h2 {
+   background-color: #5fa07f;
+   color: coral;
+   font-family:Roboto;
+   font-size: 40px;
+   font-weight: bold;
+ font-style: normal;
+}
+.one{
+   text-transform: uppercase;
+   text-align: justify;
+   text-indent: 50px;
+
+}
+.two{
+   text-transform: lowercase;
+   text-align: center;
+
+   
+}
+.three{
+   text-transform: capitalize;
+   line-height: 30px;
+   word-spacing: 10px;
+   letter-spacing: 10px;
+   text-align: right;
+}
+p > span{
+   font-size: 50px;
+}
+a {
+   text-decoration: none;
+}
+p::first-line{
+   color: chartreuse;
+}
+p::first-letter{
+   color: red;
+}
+.four {
+    color:black;
+   font-family: Roboto;
+   
+
+}
+.four:hover{
+   text-shadow: 2px 2px 2px orange;
+}
+input:focus{
+   background-color: orange;
+}
+
