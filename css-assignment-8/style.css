@@ -1,0 +1,88 @@
+/* .main{
+    display: flex;
+      width: 50%;
+      flex-wrap: wrap;
+    align-items: flex-start;
+    /* /* align-items:center; */
+/* justify-content: center;
+    justify-content: space-evenly; */
+/* flex-direction:column ; */
+/* justify-content: center; */
+/* background-color: black;
+    width: 200px; */
+/* padding: 5px;
+    height: 300px;
+  
+  
+} */
+/* .one{
+    /* order: 1; */
+/* align-self:flex-start; */
+/* background-color: blue; */
+/* width: 200px;
+    height: 200px; */
+/* }
+
+.two{ */
+/* align-self:center; */
+/* background-color: red; */
+/* }
+.three{ */
+/* order: 2; */
+/* background-color: yellow; */
+/* }
+.four{ */
+/* order: -2; */
+/* background-color: darkcyan; */
+/* }
+.five{ */
+/* order: -1; */
+/* align-self:center; */
+/* background-color: blueviolet; */
+/* } */
+body {
+    margin: opx;
+}
+
+.main {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:flex-end;
+}
+
+.box {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    border: 2px solid orange;
+
+}
+
+.box1 {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border: 2px solid orange;
+
+}
+
+.box2 {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border: 2px solid orange;
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    .box,
+    .box1,
+    .box2 {
+        width: 100%;
+    }
+}
