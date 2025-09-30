@@ -1,10 +1,25 @@
 body{
-   background-color: blueviolet;
-   
+    background-size: cover;
+  background-color: cyan;
+  background-image :url(https://asset.gecdesigns.com/img/background-templates/abstract-background-design-transitioning-from-orange-to-purple-10032403-1710078711067-cover.webp)
 }
 
 .main ul li a {
+   
 
-    color: black;
+    color: white;
 
+}
+.heading{
+ font-weight: bolder;
+ color:white;
+ text-align:center;
+}
+h2 {
+color: yellow;
+text-align:center;
+}
+h3,a {
+    color: white;
+    text-align: center;
 }
