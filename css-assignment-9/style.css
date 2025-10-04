@@ -1,0 +1,266 @@
+body {
+    background-color: black;
+}
+
+
+
+.navbar {
+    display: flex;
+    /* position: fixed; */
+    background-color: black;
+    /* border-bottom: 5px;
+  border-color:white; */
+    /* width: 100%;
+    height: 100px; */
+}
+
+.navbar div {
+
+    /* display: inline-block; */
+    color: white;
+    padding: 20px;
+    margin: auto;
+    border-bottom: 5px;
+    border-color: white;
+    /* position: fixed; */
+
+
+}
+
+.list,
+ul,
+li {
+    display: inline-block;
+    margin-left: 100px;
+
+
+}
+
+/* 
+ img{
+    width: 100px;
+    height: 100px;
+
+
+} */
+
+button {
+    background-color: red;
+    color: white;
+    margin-left: 100px;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    background-image: url(https://lh6.googleusercontent.com/proxy/DwY4f2AcoWcjDdGEbiEiSyuvMRIKd6RJyaq2TKjqbF7VQTpsBYG6O8FP4o8ybxGNEU4ThCWmUfu0GbuD0aMSt0pmiGJ7gGR8sp2mGZawx_RyyJtvFA);
+    background-size: ;
+
+}
+
+/* chart {
+    width: 10px;
+    height: 10px;
+
+} */
+.chart img {
+    width: 50px;
+    height: 50px;
+
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.heading h1 {
+    color: white;
+    text-align: center;
+}
+
+.picture {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.picture img {
+    width: 200px;
+    height: 300px;
+}
+
+.picture h3 {
+    color: white;
+    text-align: center;
+}
+
+.section2 {
+    display: flex;
+    /* justify-content:space-evenly; */
+
+
+    /* width: 50px;
+    height: 50px;
+    */
+
+
+
+}
+
+.abc {
+    /* width: 100%;
+    height: 100%; */
+    padding:100px ;
+
+
+
+}
+
+.def {
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    padding-right: 59px;
+
+   
+
+}
+.white {
+    color: white;
+    text-align: center;
+    /* margin-left: 100px; */
+    /* padding: 20px; */
+}
+
+
+.deals {
+    display: flex;
+  justify-content:space-evenly;
+  
+   /* padding-left: 200px; */
+   /* margin: 10px; */
+   /* padding-left: 20px; */
+}
+
+/* .white {
+    color: white;
+    text-align: center;
+    margin-left: 150px;
+    padding: 20px;
+} */
+
+.roti {
+
+
+    width: 100%;
+    /* height: 100%; */
+     /* padding-left: 10px;
+     margin: 20px; */
+     
+}
+
+.text {
+    color: white;
+    text-align: center;
+    font-size: medium;
+    /* padding-left: 150px; 
+    margin: 20px; */
+}
+
+
+.chic {
+    color: white;
+    text-align:center;
+    /* padding-left: 20px; */
+    font-size: medium;
+   /* margin: 20px; */
+
+}
+   
+.price{
+    color: white;
+    text-align: center;
+    /* padding-left: 100px; */
+    font-size:medium;
+   
+
+}
+.pluse {
+     /* width: 30px; */
+    height: 30px;
+   padding:100px;
+   /* margin: 100px; */
+  /* align-items: center; */
+   
+  
+}
+ .meal1 h1  {
+   color: white;
+   font-size: medium;
+   text-align: center;
+   font-weight: bold;
+
+   /* width: 20px;
+   height: 20px; */
+ }
+ .meal1 .imgone {
+    width:330px;
+    height: 300px;
+ }
+ .meal1 .imgtwo {
+    width: 30px;
+   /* padding-bottom: 20px; */
+   padding-left: 150px;
+ }
+.meal1 > p {
+    /* width: 20px; */
+    /* height: 20px; */
+    color: white;
+    font-size: medium;
+    text-align: center;
+    font-weight: lighter;
+}
+.meal1 > .price {
+     color: white;
+    font-size: medium;
+   text-align: center;
+   
+
+}
+.deals{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+}
+.meal2 h1  {
+   color: white;
+   font-size: medium;
+   text-align: center;
+   font-weight: bold;
+
+   /* width: 20px;
+   height: 20px; */
+ }
+ .meal2 .imgone {
+    width:330px;
+    height: 300px;
+ }
+ .meal2 .imgtwo {
+    width: 30px;
+   /* padding-bottom: 20px; */
+   padding-left: 150px;
+ }
+.meal2 > p {
+    /* width: 20px; */
+    /* height: 20px; */
+    color: white;
+    font-size: medium;
+    text-align: center;
+    font-weight: lighter;
+}
+.meal2 > .price {
+     color: white;
+    font-size: medium;
+   text-align: center;
+   
+
+}
