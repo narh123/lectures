@@ -9,7 +9,7 @@ body {
     /* position: fixed; */
     background-color: black;
     position: fixed;
-    top: 0%;
+    top: 0;
     width: 100%;
 
     /* border-bottom: 5px;
@@ -152,7 +152,7 @@ button {
     padding: 20px;
 } */
 
-.roti {
+/* .roti {
 
 
     width: 100%;
@@ -160,26 +160,26 @@ button {
      /* padding-left: 10px;
      margin: 20px; */
      
-}
+} */
 
-.text {
+/* .text {
     color: white;
     text-align: center;
     font-size: medium;
     /* padding-left: 150px; 
     margin: 20px; */
-}
+} */
 
 
-.chic {
+/* .chic {
     color: white;
     text-align:center;
     /* padding-left: 20px; */
     font-size: medium;
    /* margin: 20px; */
 
-}
-   
+/* }
+    */
 .price{
     color: white;
     text-align: center;
@@ -187,15 +187,15 @@ button {
     font-size:medium;
    
 
-}
-.pluse {
+/* } */
+/* .pluse { */
      /* width: 30px; */
     height: 30px;
    padding:100px;
    /* margin: 100px; */
   /* align-items: center; */
    
-  
+   */
 }
  .meal1 h1  {
    color: white;
@@ -267,4 +267,54 @@ button {
    text-align: center;
    
 
+}
+.four {
+    display: flex;
+ justify-content:space-evenly;
+/* padding-left: 20%; */
+}
+/* .portion4 img {
+    width: 50%;
+    /* height: 40%; */
+     /* padding-left:40% ; */ */
+
+.Portion1 > h1 {
+    color: white;
+    text-align: center;
+
+} 
+.Portion1 > h3 {
+    color: white;
+    /* text-align:; */
+    font-size: 25px;
+}
+.Portion1 .menu {
+    color: red;
+    /* text-align: center; */
+    /* padding-top: 20px; */
+    /* padding-right:  100px; */
+    font-size: 30px;
+
+
+
+}
+.Portion1 > h1 {
+    color: white;
+    font-size:40px;
+}
+ .Portion1> p {
+    color: white;
+   /* margin: 30px; */
+    /* text-align: center; */
+    font-size: medium;
+    /* margin: 30px; */
+}
+   .but {
+   
+   }
+
+   .pic {
+    /* padding-top: 20px; */
+    width: 600px;
+    height: 600px;
 }
