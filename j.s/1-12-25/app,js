@@ -1,0 +1,17 @@
+// for(var i = 0; i < 5; i++ ){
+//  for(var j= 0; j<5; j++){
+//     console.log(i,j)
+//  }
+       
+// }
+
+// var arr =[['amber','ahmer'],['zain','khan']]
+
+// for(var i=0; i<arr.length; i++){
+//     for(var j=0; j< arr[i].length;j++){
+//         console.log(arr[i][j])
+//     }
+// }
+
+var fullName = "amber";
+console.log(fullName.toLocaleUpperCase(+))
