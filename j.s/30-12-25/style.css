@@ -1,0 +1,17 @@
+.main{
+
+    width: 100%;
+    height: 100vh;
+    background-image:url(https://tse4.mm.bing.net/th/id/OIP.4iay_DTV9db5NlsNVPvHdwHaDZ?pid=Api&P=0&h=220) ;
+    /* background: no-repeat; */
+    background-size: 100%;
+    position: relative;
+}
+
+.characters{
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
+    position: absolute;
+    bottom: 10px;
+}
