@@ -54,6 +54,13 @@
        
 //     }
 //     // console.log(key)
-//    }
+//    
+
+
+function addpost(){
+    var title = document.getElementById('title');
+     var Description = document.getElementById('Description');
+      console.log(title.value,Description.value)
+}
 
 
