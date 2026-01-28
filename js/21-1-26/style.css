@@ -1,0 +1,56 @@
+
+.navbar{
+    background-color:#164d34 ;
+    height: 60px;
+}
+.navbar-brand{
+    color:white !important;
+    font-weight: bold !important;
+    
+}
+ .btn-primary{
+    background-color:#164d34 !important; 
+    border-color:#164d34 !important ;
+
+}
+.btn-primary:hover{
+  background-color:#164d34 ;
+    border-color:#164d34 ;   
+}
+
+  .btn-primary:active{
+  background-color:#164d34 !important ;
+    border-color:#164d34 !important;   
+}
+
+.swal2-actions {
+      width: 90% !important;
+}
+.swal2-confirm {
+    background-color: hsl(153, 56%, 19%) !important; 
+    width: 100% !important;
+}
+.image-list {
+    justify-content:space-around;
+    border: ;
+}
+.image-list > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+ 
+
+      
+}
+.image-list-seclected {
+     border: 2px solid#164d34 ;
+}
+.card-body {
+    background-size: cover;
+}
+@media only screen and(max-width:500px) {
+    .main{
+        padding: 10px 4px !important;
+    }
+}
+  
