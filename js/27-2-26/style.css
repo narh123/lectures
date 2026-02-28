@@ -1,0 +1,89 @@
+
+
+
+ul{
+    list-style-type:lower-alpha;
+}
+table,th,td{
+    border: 3px groove black;
+}
+table{
+    background-color: black;
+    color: white;
+    border-spacing: 10px;
+    width: 70%;
+    padding: 3px;
+}
+td:hover{
+    transform: scale(1.5);
+    background-color: blue;
+    transition: 3s;
+}
+th:hover{
+    background-color: blue;
+}
+td,th{
+    margin: 2px;
+    padding: 3px;
+    text-align: center;
+}
+.abc{
+    background-color: cornflowerblue;
+    color: black;
+}
+
+
+label{
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+}
+#email{
+    background-image: url('https://png.pngtree.com/png-vector/20201109/ourmid/pngtree-email-icon-design-png-image_2413695.jpg');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left:19px ;
+}
+#password{
+    background-image:url('https://toppng.com/uploads/preview/its-a-padlock-forgot-password-vector-icon-11553450739ggbzcdw4uv.png') ;
+    background-size:10px ;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 19px;
+}
+
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+      align-items: flex-start;
+    /* justify-content: center; */
+    justify-content:space-evenly; 
+    /* flex-direction: column-reverse; */
+    padding: 5px;
+    width: 50%;
+     /* height: 300px;  */
+    background-color: black;
+    color:black;
+}
+.one{
+    /* align-self: flex-start; */
+    background-color: yellow;
+}
+.two{
+   
+    background-color: blue;
+}
+.three{
+    /* align-self: center; */
+    background-color: red;
+}
+.four{
+    /* order: -1; */
+    background-color: chocolate;
+}
+.five{
+    /* order: -2; */
+    background-color: cornflowerblue;
+}

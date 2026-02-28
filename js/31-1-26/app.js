@@ -179,16 +179,19 @@ var carVariants = {
         console.log(key)
         brand.innerHTML += `<option value="${key}">${key}</option>`
         for (var key1 in carVariants[key]){ 
-            console.log(key1)
+            // console.log(key1)
         // for (var key2 in carVariants[key][key1]) {
             var obj = (carVariants[key][key1]);
-            // console.log(obj.colors)
-            var Div  ="";
+        
+            var colorsDiv  =" ";
+
             for(var i=0; i < obj.colors.lenght; i++){
                 
+               
          }       
-            Div += 
-            `<div class="${obj.colors[i]}"></div>`
+           colorsDiv += 
+            `<div class="${obj.colors[i]}">
+            </div>`
         
               main.innerHTML += `
               <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb-2"> 
@@ -205,7 +208,7 @@ var carVariants = {
                         <h6>${obj.price}</h6>
 
                         <div>
-                        ${Div}
+                        ${colorsDiv}
                         </div>
                        
                         
